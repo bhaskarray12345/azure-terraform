@@ -11,7 +11,7 @@ resource "azurecaf_name" "rg_example" {
 
 resource "azurerm_resource_group" "demo" {
   name     = azurecaf_name.rg_example.result
-  location = "southeastasia"
+  location = "eastus"
 }
 
 output "az_rg_id" {

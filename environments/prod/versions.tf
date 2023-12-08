@@ -1,4 +1,7 @@
 terraform {
+
+ 
+
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
@@ -32,15 +35,15 @@ terraform {
 
 
 
-provider "azurerm" {
-  features {}
+# provider "azurerm" {
+#   features {}
 
-  skip_provider_registration = "true"
+#   skip_provider_registration = "true"
   
   
-#bhaskarray0820210080-iothubnxtdev-767f3270-a4e3-4998-8a32-00877bf77174
-  client_id       = ""
-  client_secret   = ""
-  tenant_id       = ""
-  subscription_id = ""
-}
+# #bhaskarray0820210080-iothubnxtdev-767f3270-a4e3-4998-8a32-00877bf77174
+#   client_id       = "b9595cda-23f0-4a07-9a09-9b1dcb803340"
+#   client_secret   = "tZW8Q~Y3bPw7guMRg_ow.p4CYEyhZsbClHaVNcR2"
+#   tenant_id       = "c5b71890-2994-4268-8eed-c824c357f508"
+#   subscription_id = "767f3270-a4e3-4998-8a32-00877bf77174"
+# }
