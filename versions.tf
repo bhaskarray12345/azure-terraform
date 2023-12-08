@@ -5,7 +5,7 @@ terraform {
     storage_account_name = "azuretfstorageaccount"
     container_name       = "tfstate"
     key                  = "prod.terraform.tfstate"
-    access_key           = "2YzPw+9nX3EhkDdH/S8Ly4af+wzr/PR2znW93j4aEkY7kUWkVPIegoBeci37MOgmzZnun5VQdT/m+AStFmLKTw=="
+    access_key           = ""
   }
 
   required_providers {
