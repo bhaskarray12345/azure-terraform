@@ -1,13 +1,5 @@
 terraform {
 
-  backend "azurerm" {
-    resource_group_name  = "azure-tf-rg"
-    storage_account_name = "azuretfstorageaccount"
-    container_name       = "tfstate"
-    key                  = "prod.terraform.tfstate"
-    access_key           = ""
-  }
-
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
@@ -47,9 +39,9 @@ provider "azurerm" {
   skip_provider_registration = "true"
 
 
-  
-  client_id       = ""
-  client_secret   = ""
-  tenant_id       = ""
-  subscription_id = ""
+
+  #client_id       = ""
+  #client_secret   = ""
+  tenant_id = ""
+  #subscription_id = ""
 }
